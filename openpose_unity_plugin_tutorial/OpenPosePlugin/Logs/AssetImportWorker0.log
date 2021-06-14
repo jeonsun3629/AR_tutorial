@@ -1,0 +1,356 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.1052; Version 2004; 64bit' Language: 'ko' Physical Memory: 16316 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity/openpose_unity_plugin-master/openpose_unity_plugin-master/OpenPosePlugin
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57717
+Successfully changed project path to: E:/Unity/openpose_unity_plugin-master/openpose_unity_plugin-master/OpenPosePlugin
+E:/Unity/openpose_unity_plugin-master/openpose_unity_plugin-master/OpenPosePlugin
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 43.13 ms, found 77 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/openpose_unity_plugin-master/openpose_unity_plugin-master/OpenPosePlugin/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   27.21.14.6079
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002268 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 23.58 ms, found 77 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.743 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010516 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image E:\Unity\openpose_unity_plugin-master\openpose_unity_plugin-master\OpenPosePlugin\Assets\OpenPose\Plugins\SpinnakerNET_v140.dll due to Invalid Section Aligmnent 1000
+Run the peverify utility against this for more information.
+
+Error: Could not load signature of SpinnakerNET.GUI.GUIFactory:get_ManagedCameraInterface due to: Could not load file or assembly 'SpinnakerNET_v140, Version=1.10.0.31, Culture=neutral, PublicKeyToken=e3ed2bf1f221d241' or one of its dependencies. assembly:SpinnakerNET_v140, Version=1.10.0.31, Culture=neutral, PublicKeyToken=e3ed2bf1f221d241 type:<unknown type> member:(null) signature:<none>
+
+Could not load image E:\Unity\openpose_unity_plugin-master\openpose_unity_plugin-master\OpenPosePlugin\Assets\OpenPose\Plugins\SpinnakerNETd_v140.dll due to Invalid Section Aligmnent 1000
+Run the peverify utility against this for more information.
+
+Error: Could not load signature of SpinnakerNET.GUI.GUIFactory:get_ManagedCameraInterface due to: Could not load file or assembly 'SpinnakerNETd_v140, Version=1.10.0.31, Culture=neutral, PublicKeyToken=e3ed2bf1f221d241' or one of its dependencies. assembly:SpinnakerNETd_v140, Version=1.10.0.31, Culture=neutral, PublicKeyToken=e3ed2bf1f221d241 type:<unknown type> member:(null) signature:<none>
+
+Error: Could not load signature of ActiproSoftware.Compatibility.DrawingContextWrapper:.ctor due to: Could not load file or assembly 'PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. assembly:PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/OpenPose/Plugins/SpinnakerNETGUI_v140.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Assets/OpenPose/Plugins/SpinnakerNETGUId_v140.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Assets/OpenPose/Plugins/ActiproSoftware.Shared.Wpf.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Assets/OpenPose/Plugins/ActiproSoftware.Docking.Wpf.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 77 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.858 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 77 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1198 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.8 MB.
+System memory in use after: 58.9 MB.
+
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 1556.
+Total: 1.686600 ms (FindLiveObjects: 0.134100 ms CreateObjectMapping: 0.046500 ms MarkObjects: 1.432400 ms  DeleteObjects: 0.072900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/OpenPose/Plugins/avdevice-57.dll
+  artifactKey: Guid(37c4c0f8e74473f4c9d991c9aef27c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Plugins/avdevice-57.dll using Guid(37c4c0f8e74473f4c9d991c9aef27c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021d31b76005d0a205be23ac73df9798') in 0.055126 seconds
+  Import took 0.056865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/OpenPose/Plugins/avfilter-6.dll
+  artifactKey: Guid(2fc80276de380c140ba5f82bd24a6bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Plugins/avfilter-6.dll using Guid(2fc80276de380c140ba5f82bd24a6bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a741c0110c5daeac32b3b87b452e98') in 0.021455 seconds
+  Import took 0.023167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/OpenPose/Plugins
+  artifactKey: Guid(f78744c2dfc3331419d7b034aa72d72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Plugins using Guid(f78744c2dfc3331419d7b034aa72d72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f1c7c2a38db9701a87ca15f424178a') in 0.021363 seconds
+  Import took 0.023176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.828820 seconds.
+  path: Assets/StreamingAssets/models
+  artifactKey: Guid(546f1115f2911564f8e7ca769bec9e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/models using Guid(546f1115f2911564f8e7ca769bec9e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041a9dc9a3b81a5292ed4b045583cbc6') in 0.022169 seconds
+  Import took 0.024108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.069109 seconds.
+  path: Assets/StreamingAssets/models/face
+  artifactKey: Guid(5f30b4d71616c534fbbf4ae7e41b6a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/models/face using Guid(5f30b4d71616c534fbbf4ae7e41b6a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc8dc7220db44dc0b17088d82a32132') in 0.011388 seconds
+  Import took 0.013316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.039040 seconds.
+  path: Assets/StreamingAssets/models/face/pose_deploy.prototxt
+  artifactKey: Guid(0489a8a25c449bd40a664023d9c68cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/models/face/pose_deploy.prototxt using Guid(0489a8a25c449bd40a664023d9c68cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6627804802fdc681d0792f29b8951c91') in 0.032287 seconds
+  Import took 0.034040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.807273 seconds.
+  path: Assets/StreamingAssets/models/face/pose_iter_116000.caffemodel
+  artifactKey: Guid(dc0830a1b434f734ab82fc401cca3d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/models/face/pose_iter_116000.caffemodel using Guid(dc0830a1b434f734ab82fc401cca3d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bf52e29973edc9ac3cd8e7085fbfd3') in 0.023765 seconds
+  Import took 0.037372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.379272 seconds.
+  path: Assets/OpenPose/Modules/Scripts
+  artifactKey: Guid(ade77709e4c3dcb459e4bc8743f9933d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Modules/Scripts using Guid(ade77709e4c3dcb459e4bc8743f9933d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ea8b6b31a4cd0fdd79c56971eed5c3') in 0.021881 seconds
+  Import took 0.023595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.974489 seconds.
+  path: Assets/OpenPose/Examples/Render
+  artifactKey: Guid(d92233d239a3c5443bed71968772f352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Render using Guid(d92233d239a3c5443bed71968772f352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e472fe535218e2719b7e43fecaabe485') in 0.022287 seconds
+  Import took 0.024072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.207928 seconds.
+  path: Assets/OpenPose/Examples/Render/TextureMaterial.mat
+  artifactKey: Guid(05771c19f9f470a4395f3f170d4d82b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Render/TextureMaterial.mat using Guid(05771c19f9f470a4395f3f170d4d82b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49b3e3010acf95ce732190ca967889a') in 0.101437 seconds
+  Import took 0.103427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.468414 seconds.
+  path: Assets/OpenPose/Examples/Render/RGB_2_BGR_UI_Shader.shader
+  artifactKey: Guid(6795119d1e478fe4ca6608429b662e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Render/RGB_2_BGR_UI_Shader.shader using Guid(6795119d1e478fe4ca6608429b662e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cbba452ae252775f7926058d20d242') in 0.023638 seconds
+  Import took 0.025398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002475 seconds.
+  path: Assets/OpenPose/Examples/Render/RGB_2_BGR_UI_Shader.shader
+  artifactKey: Guid(6795119d1e478fe4ca6608429b662e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Render/RGB_2_BGR_UI_Shader.shader using Guid(6795119d1e478fe4ca6608429b662e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cbba452ae252775f7926058d20d242') in 0.021694 seconds
+  Import took 0.023946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.048677 seconds.
+  path: Assets/OpenPose/Examples/Prefabs/Human2D_Body25.prefab
+  artifactKey: Guid(831a1ca4df7dbba40a51933985fa4083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Prefabs/Human2D_Body25.prefab using Guid(831a1ca4df7dbba40a51933985fa4083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea9ccce8a1e06f644d31fced42615fd') in 0.040813 seconds
+  Import took 0.043637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.635669 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000192.jpg
+  artifactKey: Guid(74c1697fe50b8844493db33650c10aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000192.jpg using Guid(74c1697fe50b8844493db33650c10aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097f456cf1912d33afba82c27b1bf8c0') in 0.065705 seconds
+  Import took 0.067531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000459.jpg
+  artifactKey: Guid(342cd868dd9885b49bba13675713976b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000459.jpg using Guid(342cd868dd9885b49bba13675713976b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5ef82a7bbb416267951b47fb1a5afd') in 0.034011 seconds
+  Import took 0.035779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000357.jpg
+  artifactKey: Guid(84bc6b28a5d92e34799e7c71b17793e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000357.jpg using Guid(84bc6b28a5d92e34799e7c71b17793e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4a6782440e0a849434f3f110fb1ccf') in 0.031192 seconds
+  Import took 0.032927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000623.jpg
+  artifactKey: Guid(6938b590ea7f9744f93f830b6a617081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000623.jpg using Guid(6938b590ea7f9744f93f830b6a617081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c37b6992e15b788c9f8837c8fdceef5') in 0.029780 seconds
+  Import took 0.031435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000569.jpg
+  artifactKey: Guid(af96a21f7722af44baf34318c06c85f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000569.jpg using Guid(af96a21f7722af44baf34318c06c85f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5d1e13cfc813107715c9ec6b995f68') in 0.038535 seconds
+  Import took 0.040189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000328.jpg
+  artifactKey: Guid(db5b4ea180e08184690aea23ea0674c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000328.jpg using Guid(db5b4ea180e08184690aea23ea0674c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90772622ac5e7222e69cb74f691fe5a0') in 0.033357 seconds
+  Import took 0.035061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000338.jpg
+  artifactKey: Guid(4a8fa838e02ce384d958363ce27a4350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000338.jpg using Guid(4a8fa838e02ce384d958363ce27a4350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f9152984fd216cbbf6f3b75d651d9f') in 0.035380 seconds
+  Import took 0.037085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000474.jpg
+  artifactKey: Guid(929f662bf9cac0d43ac24fcffab710fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000474.jpg using Guid(929f662bf9cac0d43ac24fcffab710fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58c36c0bb68fed1ae819bab56a80208') in 0.036451 seconds
+  Import took 0.038298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000428.jpg
+  artifactKey: Guid(8baa9833c0419f2449102f7715891f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000428.jpg using Guid(8baa9833c0419f2449102f7715891f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e38fc0c8566f2aa3fb0eba5c811fef') in 0.036342 seconds
+  Import took 0.038070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000360.jpg
+  artifactKey: Guid(0be9ae7d78689cc46a3105d373fdb0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000360.jpg using Guid(0be9ae7d78689cc46a3105d373fdb0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbe7dcb09f0c3a8a0d8066ef318ca50') in 0.031951 seconds
+  Import took 0.033660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000536.jpg
+  artifactKey: Guid(d4d9a9d3962b9f54d8fbee9d67d0812e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000536.jpg using Guid(d4d9a9d3962b9f54d8fbee9d67d0812e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62332a226b162223687b9113753a3368') in 0.029170 seconds
+  Import took 0.030827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000415.jpg
+  artifactKey: Guid(7e790a4d47277494e9c6671c655d4b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000415.jpg using Guid(7e790a4d47277494e9c6671c655d4b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7b0ede4a49ab9f8e151b209c4d05c3') in 0.028949 seconds
+  Import took 0.030732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000294.jpg
+  artifactKey: Guid(665b3347122808446a5e81417fcf7e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000294.jpg using Guid(665b3347122808446a5e81417fcf7e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbefe128faf7457ef2cc5775dddeb45e') in 0.030828 seconds
+  Import took 0.032549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000564.jpg
+  artifactKey: Guid(7e1b1a40175bea0409a839653dd1bd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000564.jpg using Guid(7e1b1a40175bea0409a839653dd1bd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f641729fe11ce6ff3dd2058056d0de') in 0.030339 seconds
+  Import took 0.037506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000241.jpg
+  artifactKey: Guid(154a3bc561226184db671496d36e951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000241.jpg using Guid(154a3bc561226184db671496d36e951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5271329da68438114a030756d02c552a') in 0.031003 seconds
+  Import took 0.032750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000544.jpg
+  artifactKey: Guid(af630e29ea8dfef4686e5dc8fa5292d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000544.jpg using Guid(af630e29ea8dfef4686e5dc8fa5292d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586686434706f968ae11c35ba9396e20') in 0.039248 seconds
+  Import took 0.041071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000589.jpg
+  artifactKey: Guid(80f3633751883684391ba12dad62cdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000589.jpg using Guid(80f3633751883684391ba12dad62cdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bca0ce0d0a668f119c0da3c6a69ab27') in 0.036498 seconds
+  Import took 0.038784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000395.jpg
+  artifactKey: Guid(ca1ed48f05ad82e4ea222b9bba68a153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000395.jpg using Guid(ca1ed48f05ad82e4ea222b9bba68a153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efaad3e9ebacd5deaba0e31f06814541') in 0.032849 seconds
+  Import took 0.034528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000257.jpg
+  artifactKey: Guid(ea9f7675e3d7e034680a1f7daba72477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000257.jpg using Guid(ea9f7675e3d7e034680a1f7daba72477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5eb18e64f84c1711490c27aeb2177d') in 0.034235 seconds
+  Import took 0.035906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/OpenPose/Examples/Media/COCO_val2014_000000000488.jpg
+  artifactKey: Guid(c778ed571c76eab4c92275eaf20251b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenPose/Examples/Media/COCO_val2014_000000000488.jpg using Guid(c778ed571c76eab4c92275eaf20251b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102c4099c0765641dc155714f0d5af52') in 0.032536 seconds
+  Import took 0.034218 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
